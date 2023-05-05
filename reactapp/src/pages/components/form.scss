@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  form {
+    max-width: 320px;
+    width: 100%;
+    border: 1px solid #b2b2b2;
+    padding: 30px 20px;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    label {
+      margin-bottom: 5px;
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      &.error {
+        border: 1px solid red;
+        color: black;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    .wrapper-buttons {
+      margin-top: 30px;
+
+      &__item {
+        margin-bottom: 10px;
+        display: block;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+}

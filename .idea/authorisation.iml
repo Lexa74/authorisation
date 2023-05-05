@@ -115,6 +115,12 @@
       <excludeFolder url="file://$MODULE_DIR$/lara/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/lara/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/lara/vendor/nunomaduro/termwind" />
+      <excludeFolder url="file://$MODULE_DIR$/lara/vendor/namshi/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/lara/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/lara/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/lara/vendor/stella-maris/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/lara/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/lara/vendor/php-open-source-saver/jwt-auth" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
